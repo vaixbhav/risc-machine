@@ -1,10 +1,6 @@
-// WARNING: This is NOT the autograder that will be used mark you.  
-// Passing the checks in this file does NOT (in any way) guarantee you 
-// will not lose marks when your code is run through the actual autograder.  
-// You are responsible for designing your own test benches to verify you 
-// match the specification given in the lab handout.
 
-module lab7_check_tb;
+
+module assembler_tb;
   reg [3:0] KEY;
   reg [9:0] SW;
   wire [9:0] LEDR; 
