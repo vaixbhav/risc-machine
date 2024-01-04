@@ -1,4 +1,4 @@
-module lab7_top(KEY, SW, LEDR, HEX0, HEX1, HEX2, HEX3, HEX4, HEX5); 
+module top_module(KEY, SW, LEDR, HEX0, HEX1, HEX2, HEX3, HEX4, HEX5); 
        input[3:0] KEY;    //   ~KEY[0] : clk, ~KEY[1] : reset
        input[9:0] SW;      
        output[9:0] LEDR;
